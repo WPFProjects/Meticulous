@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Meticulous.Modules.Dashboard/Meticulous.Modules.Dashboard.csproj" Id="176f8721-d156-4ace-805a-24ce189b2136" />
+  <Project Path="Meticulous.Modules.Processes/Meticulous.Modules.Processes.csproj" Id="1b33dea2-aa4b-45cd-b3d3-a4b99a5d09e8" />
+  <Project Path="Meticulous.Shell.csproj" Id="1db7c299-e088-40a0-8cf0-59638f7ceeec" />
+</Solution>

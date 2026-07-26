@@ -1,0 +1,61 @@
+﻿<UserControl x:Class="Meticulous.View.Regions.HeaderView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Meticulous.View.Regions"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" 
+             d:DesignWidth="800">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Resources/Themes/Typography.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
+    
+    <Border Background="#F5F5F5"
+            BorderBrush="#D3D3D3"
+            BorderThickness="0,0,0,1">
+
+        <Grid Margin="0,15,0,5"
+              Background="{StaticResource HeaderBackgroundBrush}">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Left Side -->
+            <StackPanel VerticalAlignment="Center">
+
+                <TextBlock Text="Meticulous"
+                           Padding="5,0,0,0"
+                           Style="{StaticResource WindowTitleText}"/>
+
+                <TextBlock Text="Enterprise Monitoring Dashboard"
+                           Padding="5,0,0,0"
+                           Style="{StaticResource SubtitleText}"/>
+
+            </StackPanel>
+
+            <!-- Right Side -->
+            <StackPanel Grid.Column="1"
+                        VerticalAlignment="Center">
+
+                <TextBlock Text="Current User"
+                           Padding="0,0,5,0"
+                           HorizontalAlignment="Right"/>
+
+                <TextBlock Text="Admin"
+                           FontWeight="SemiBold"
+                           Padding="0,0,5,0"
+                           HorizontalAlignment="Right"/>
+
+            </StackPanel>
+
+        </Grid>
+
+    </Border>
+</UserControl>

@@ -1,0 +1,268 @@
+﻿<UserControl x:Class="Meticulous.Modules.Settings.View.SettingsUI"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Meticulous.Modules.Settings.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+
+        <Grid Margin="20">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="20"/>
+
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="20"/>
+
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="20"/>
+
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="20"/>
+
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="20"/>
+
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="20"/>
+
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!-- Header -->
+            <DockPanel Grid.Row="0">
+
+                <TextBlock Text="Settings"
+                           FontSize="24"
+                           FontWeight="Bold"
+                           VerticalAlignment="Center"/>
+
+                <StackPanel Orientation="Horizontal"
+                            HorizontalAlignment="Right"
+                            DockPanel.Dock="Right">
+
+                    <Button Content="Save"
+                            Width="90"
+                            Margin="5"/>
+
+                    <Button Content="Reset"
+                            Width="90"
+                            Margin="5"/>
+
+                </StackPanel>
+
+            </DockPanel>
+
+            <!-- General -->
+            <GroupBox Grid.Row="2"
+                      Header="General">
+
+                <StackPanel Margin="10">
+
+                    <CheckBox Content="Start monitoring on application startup"
+                              Margin="0,5"/>
+
+                    <CheckBox Content="Minimize to system tray"
+                              Margin="0,5"/>
+
+                    <CheckBox Content="Enable desktop notifications"
+                              Margin="0,5"/>
+
+                </StackPanel>
+
+            </GroupBox>
+
+            <!-- Refresh -->
+            <GroupBox Grid.Row="4"
+                      Header="Refresh Settings">
+
+                <Grid Margin="10">
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="200"/>
+                        <ColumnDefinition Width="150"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="15"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Text="Auto Refresh Interval"/>
+
+                    <TextBox Grid.Column="1"
+                             Width="100"
+                             Text="30"/>
+
+                    <TextBlock Grid.Row="2"
+                               Text="Maximum Log Entries"/>
+
+                    <TextBox Grid.Row="2"
+                             Grid.Column="1"
+                             Width="100"
+                             Text="5000"/>
+
+                </Grid>
+
+            </GroupBox>
+
+            <!-- Monitoring -->
+            <GroupBox Grid.Row="6"
+                      Header="Monitoring">
+
+                <Grid Margin="10">
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="220"/>
+                        <ColumnDefinition Width="100"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition Height="10"/>
+                        <RowDefinition/>
+                        <RowDefinition Height="10"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Text="CPU Warning Threshold"/>
+
+                    <TextBox Grid.Column="1"
+                             Width="60"
+                             Text="80"/>
+
+                    <TextBlock Grid.Row="2"
+                               Text="Memory Warning Threshold"/>
+
+                    <TextBox Grid.Row="2"
+                             Grid.Column="1"
+                             Width="60"
+                             Text="85"/>
+
+                    <TextBlock Grid.Row="4"
+                               Text="Disk Warning Threshold"/>
+
+                    <TextBox Grid.Row="4"
+                             Grid.Column="1"
+                             Width="60"
+                             Text="90"/>
+
+                </Grid>
+
+            </GroupBox>
+
+            <!-- Logging -->
+            <GroupBox Grid.Row="8"
+                      Header="Logging">
+
+                <Grid Margin="10">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="20"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <StackPanel>
+
+                        <RadioButton Content="Info"/>
+                        <RadioButton Content="Warning"/>
+                        <RadioButton Content="Error"
+                                     IsChecked="True"/>
+                        <RadioButton Content="Debug"/>
+
+                    </StackPanel>
+
+                    <StackPanel Grid.Row="2"
+                                Orientation="Horizontal">
+
+                        <TextBox Width="350"
+                                 Text="C:\Logs\Meticulous\"/>
+
+                        <Button Content="Browse"
+                                Margin="10,0,0,0"/>
+
+                    </StackPanel>
+
+                </Grid>
+
+            </GroupBox>
+
+            <!-- User Preferences -->
+            <GroupBox Grid.Row="10"
+                      Header="User Preferences">
+
+                <Grid Margin="10">
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"/>
+                        <ColumnDefinition Width="180"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition Height="10"/>
+                        <RowDefinition/>
+                        <RowDefinition Height="10"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Text="Theme"/>
+
+                    <ComboBox Grid.Column="1">
+                        <ComboBoxItem>Light</ComboBoxItem>
+                        <ComboBoxItem>Dark</ComboBoxItem>
+                    </ComboBox>
+
+                    <TextBlock Grid.Row="2"
+                               Text="Language"/>
+
+                    <ComboBox Grid.Row="2"
+                              Grid.Column="1">
+                        <ComboBoxItem>English</ComboBoxItem>
+                    </ComboBox>
+
+                    <TextBlock Grid.Row="4"
+                               Text="Date Format"/>
+
+                    <ComboBox Grid.Row="4"
+                              Grid.Column="1">
+                        <ComboBoxItem>dd/MM/yyyy</ComboBoxItem>
+                    </ComboBox>
+
+                </Grid>
+
+            </GroupBox>
+
+            <!-- About -->
+            <GroupBox Grid.Row="12"
+                      Header="About">
+
+                <Grid Margin="10">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Text="Application : Meticulous"/>
+
+                    <TextBlock Grid.Row="1"
+                               Text="Version : 1.0.0"/>
+
+                    <TextBlock Grid.Row="2"
+                               Text="Last Update : 27-Jul-2026"/>
+
+                </Grid>
+
+            </GroupBox>
+
+        </Grid>
+
+    </ScrollViewer>
+</UserControl>

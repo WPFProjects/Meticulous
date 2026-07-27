@@ -1,0 +1,212 @@
+﻿<UserControl x:Class="Meticulous.Modules.Reports.View.ReportUI"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Meticulous.Modules.Reports.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Margin="15">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="220"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="220"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <Grid Grid.Row="0" Margin="0,0,0,15">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Text="Reports"
+                       FontSize="24"
+                       VerticalAlignment="Center"/>
+
+            <Button Grid.Column="1"
+                    Content="Generate"
+                    Width="90"
+                    Margin="10,0"/>
+
+            <Button Grid.Column="2"
+                    Content="Export"
+                    Width="90"
+                    Margin="10,0"/>
+
+            <Button Grid.Column="3"
+                    Content="Schedule"
+                    Width="90"
+                    Margin="10,0"/>
+        </Grid>
+
+        <!-- Filters -->
+        <GroupBox Grid.Row="1"
+                  Header="Report Filters"
+                  Margin="0,0,0,15">
+
+            <WrapPanel Margin="10">
+
+                <ComboBox Width="150" Margin="5">
+                    <ComboBoxItem Content="Report Type"/>
+                </ComboBox>
+
+                <DatePicker Width="140" Margin="5"/>
+
+                <DatePicker Width="140" Margin="5"/>
+
+                <ComboBox Width="150" Margin="5">
+                    <ComboBoxItem Content="Process"/>
+                </ComboBox>
+
+                <ComboBox Width="150" Margin="5">
+                    <ComboBoxItem Content="Severity"/>
+                </ComboBox>
+
+                <TextBox Width="180"
+                         Margin="5"
+                         VerticalContentAlignment="Center"/>
+
+                <Button Content="Apply"
+                        Width="90"
+                        Margin="5"/>
+
+            </WrapPanel>
+
+        </GroupBox>
+
+        <!-- Summary Cards -->
+        <UniformGrid Grid.Row="2"
+                     Columns="4"
+                     Margin="0,0,0,15">
+
+            <GroupBox Header="Total Reports" Margin="5">
+                <TextBlock Text="1248"
+                           FontSize="22"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"/>
+            </GroupBox>
+
+            <GroupBox Header="Generated Today" Margin="5">
+                <TextBlock Text="18"
+                           FontSize="22"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"/>
+            </GroupBox>
+
+            <GroupBox Header="Scheduled Reports" Margin="5">
+                <TextBlock Text="6"
+                           FontSize="22"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"/>
+            </GroupBox>
+
+            <GroupBox Header="Exports" Margin="5">
+                <TextBlock Text="97"
+                           FontSize="22"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"/>
+            </GroupBox>
+
+        </UniformGrid>
+
+        <!-- Charts -->
+        <Grid Grid.Row="3" Margin="0,0,0,15">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <GroupBox Header="Report Summary Chart" Margin="5">
+                <TextBlock Text="Chart Placeholder"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"/>
+            </GroupBox>
+
+            <GroupBox Grid.Column="1"
+                      Header="Report Distribution"
+                      Margin="5">
+                <TextBlock Text="Chart Placeholder"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"/>
+            </GroupBox>
+
+        </Grid>
+
+        <!-- Reports Table -->
+        <GroupBox Grid.Row="4"
+                  Header="Available Reports"
+                  Margin="0,0,0,15">
+
+            <DataGrid AutoGenerateColumns="False"
+                      Margin="5">
+
+                <DataGrid.Columns>
+
+                    <DataGridTextColumn Header="ID"/>
+
+                    <DataGridTextColumn Header="Report Name"/>
+
+                    <DataGridTextColumn Header="Category"/>
+
+                    <DataGridTextColumn Header="Generated By"/>
+
+                    <DataGridTextColumn Header="Created On"/>
+
+                    <DataGridTextColumn Header="Status"/>
+
+                    <DataGridTextColumn Header="Actions"/>
+
+                </DataGrid.Columns>
+
+            </DataGrid>
+
+        </GroupBox>
+
+        <!-- Preview -->
+        <GroupBox Grid.Row="5"
+                  Header="Report Preview">
+
+            <Grid Margin="10">
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <StackPanel>
+
+                    <TextBlock Text="Report Name : Daily Health Report"/>
+
+                    <TextBlock Text="Generated By : Admin"/>
+
+                    <TextBlock Text="Duration : 24 Hours"/>
+
+                    <TextBlock Text="Format : PDF"/>
+
+                    <TextBlock Text="Size : 1.8 MB"/>
+
+                </StackPanel>
+
+                <Border Grid.Row="1"
+                        Margin="0,10,0,0">
+
+                    <TextBlock Text="Preview Placeholder"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center"/>
+
+                </Border>
+
+            </Grid>
+
+        </GroupBox>
+
+    </Grid>
+</UserControl>

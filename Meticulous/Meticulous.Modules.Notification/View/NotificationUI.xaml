@@ -1,0 +1,200 @@
+﻿<UserControl x:Class="Meticulous.Modules.Notification.View.NotificationUI"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Meticulous.Modules.Notification.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Margin="20">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <Grid Grid.Row="0" Margin="0,0,0,15">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="250"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Text="Notifications"
+                       FontSize="24"
+                       FontWeight="Bold"
+                       VerticalAlignment="Center"/>
+
+            <TextBox Grid.Column="1"
+                     Height="30"
+                     Margin="10,0"
+                     VerticalContentAlignment="Center"
+                     Text="Search..."/>
+
+            <Button Grid.Column="2"
+                    Width="90"
+                    Height="30"
+                    Margin="10,0,0,0"
+                    Content="Refresh"/>
+        </Grid>
+
+        <!-- Filter Buttons -->
+        <StackPanel Grid.Row="1"
+                    Orientation="Horizontal"
+                    Margin="0,0,0,15">
+
+            <Button Content="All" Margin="0,0,8,0"/>
+            <Button Content="Critical" Margin="0,0,8,0"/>
+            <Button Content="Warning" Margin="0,0,8,0"/>
+            <Button Content="Info" Margin="0,0,8,0"/>
+            <Button Content="Unread" Margin="0,0,8,0"/>
+
+            <Separator Width="20"/>
+
+            <Button Content="Mark All Read" Margin="8,0"/>
+            <Button Content="Clear All" Margin="8,0"/>
+        </StackPanel>
+
+        <!-- Notifications List -->
+        <ListView Grid.Row="2">
+
+            <ListViewItem>
+                <Border Padding="10" Margin="5">
+                    <Grid>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="40"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="120"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Text="🔴"
+                                   FontSize="20"
+                                   VerticalAlignment="Top"/>
+
+                        <StackPanel Grid.Column="1">
+
+                            <TextBlock Text="API Gateway service is offline"
+                                       FontWeight="Bold"/>
+
+                            <TextBlock Text="Server : PROD-APP-01"/>
+
+                            <TextBlock Text="Severity : Critical"/>
+
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="2"
+                                    HorizontalAlignment="Right">
+
+                            <TextBlock Text="2 min ago"/>
+
+                            <Button Content="View"
+                                    Margin="0,8,0,0"/>
+
+                        </StackPanel>
+
+                    </Grid>
+                </Border>
+            </ListViewItem>
+
+            <ListViewItem>
+                <Border Padding="10" Margin="5">
+                    <Grid>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="40"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="120"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Text="🟡"
+                                   FontSize="20"
+                                   VerticalAlignment="Top"/>
+
+                        <StackPanel Grid.Column="1">
+
+                            <TextBlock Text="CPU usage exceeded 90%"
+                                       FontWeight="Bold"/>
+
+                            <TextBlock Text="Server : PROD-DB-02"/>
+
+                            <TextBlock Text="Severity : Warning"/>
+
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="2"
+                                    HorizontalAlignment="Right">
+
+                            <TextBlock Text="5 min ago"/>
+
+                            <Button Content="View"
+                                    Margin="0,8,0,0"/>
+
+                        </StackPanel>
+
+                    </Grid>
+                </Border>
+            </ListViewItem>
+
+            <ListViewItem>
+                <Border Padding="10" Margin="5">
+                    <Grid>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="40"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="120"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Text="🔵"
+                                   FontSize="20"
+                                   VerticalAlignment="Top"/>
+
+                        <StackPanel Grid.Column="1">
+
+                            <TextBlock Text="Backup completed successfully"
+                                       FontWeight="Bold"/>
+
+                            <TextBlock Text="Backup Duration : 15 minutes"/>
+
+                            <TextBlock Text="Severity : Information"/>
+
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="2"
+                                    HorizontalAlignment="Right">
+
+                            <TextBlock Text="10 min ago"/>
+
+                            <Button Content="View"
+                                    Margin="0,8,0,0"/>
+
+                        </StackPanel>
+
+                    </Grid>
+                </Border>
+            </ListViewItem>
+
+        </ListView>
+
+        <!-- Footer -->
+        <Grid Grid.Row="3"
+              Margin="0,15,0,0">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Text="Showing 3 notifications"/>
+
+            <TextBlock Grid.Column="1"
+                       Text="Last Refresh : 10:15 AM"/>
+
+        </Grid>
+
+    </Grid>
+</UserControl>

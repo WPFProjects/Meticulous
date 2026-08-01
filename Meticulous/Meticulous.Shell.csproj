@@ -55,6 +55,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="RelayCommand\RelayCommand.cs" />
+    <Compile Include="Services\NavigationService.cs" />
     <Compile Include="ViewModel\Regions\ContentRegionViewModel.cs" />
     <Compile Include="View\Regions\ContentRegionView.xaml.cs">
       <DependentUpon>ContentRegionView.xaml</DependentUpon>
@@ -158,6 +160,32 @@
     <Folder Include="Resources\Icons\" />
     <Folder Include="Resources\Styles\" />
     <Folder Include="Resources\Templates\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Meticulous.Modules.Alerts\Meticulous.Modules.Alerts.csproj">
+      <Project>{edb3169b-ce7b-4fbc-aa04-8d464722f8d1}</Project>
+      <Name>Meticulous.Modules.Alerts</Name>
+    </ProjectReference>
+    <ProjectReference Include="Meticulous.Modules.Dashboard\Meticulous.Modules.Dashboard.csproj">
+      <Project>{176f8721-d156-4ace-805a-24ce189b2136}</Project>
+      <Name>Meticulous.Modules.Dashboard</Name>
+    </ProjectReference>
+    <ProjectReference Include="Meticulous.Modules.Notification\Meticulous.Modules.Notification.csproj">
+      <Project>{c04c5a58-4742-4912-9dd2-6067ad05cefe}</Project>
+      <Name>Meticulous.Modules.Notification</Name>
+    </ProjectReference>
+    <ProjectReference Include="Meticulous.Modules.Processes\Meticulous.Modules.Processes.csproj">
+      <Project>{1b33dea2-aa4b-45cd-b3d3-a4b99a5d09e8}</Project>
+      <Name>Meticulous.Modules.Processes</Name>
+    </ProjectReference>
+    <ProjectReference Include="Meticulous.Modules.Reports\Meticulous.Modules.Reports.csproj">
+      <Project>{88b33944-5ee7-435d-b705-e9210a35c94e}</Project>
+      <Name>Meticulous.Modules.Reports</Name>
+    </ProjectReference>
+    <ProjectReference Include="Meticulous.Modules.Settings\Meticulous.Modules.Settings.csproj">
+      <Project>{c5cb5725-63b4-41a5-a641-7e91e9cbdf1d}</Project>
+      <Name>Meticulous.Modules.Settings</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

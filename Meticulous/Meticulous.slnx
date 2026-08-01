@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="Meticulous.Infrastructure/Meticulous.Infrastructure.csproj" Id="2b33b813-04a7-40b3-8df2-2dee1c367b3b" />
   <Project Path="Meticulous.Modules.Alerts/Meticulous.Modules.Alerts.csproj" Id="edb3169b-ce7b-4fbc-aa04-8d464722f8d1" />
   <Project Path="Meticulous.Modules.Dashboard/Meticulous.Modules.Dashboard.csproj" Id="176f8721-d156-4ace-805a-24ce189b2136" />
   <Project Path="Meticulous.Modules.Notification/Meticulous.Modules.Notification.csproj" Id="c04c5a58-4742-4912-9dd2-6067ad05cefe" />

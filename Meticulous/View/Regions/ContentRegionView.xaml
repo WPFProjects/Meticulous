@@ -12,12 +12,7 @@
 
         <Grid>
 
-            <TextBlock Text="Content Region"
-                       FontSize="24"
-                       FontWeight="SemiBold"
-                       Foreground="Gray"
-                       HorizontalAlignment="Center"
-                       VerticalAlignment="Center"/>
+            <ContentControl Content="{Binding CurrentView}"/>
 
         </Grid>
 

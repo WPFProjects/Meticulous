@@ -11,24 +11,35 @@
             BorderBrush="{StaticResource BorderBrush}"
             BorderThickness="0, 0, 1, 0">
 
-        <ListBox BorderThickness="0"
-                 Background="Transparent">
-            <ListBox.ItemContainerStyle>
-                <Style TargetType="ListBoxItem">
+        <StackPanel Background="Transparent">
+            <StackPanel.Resources>
+                <Style TargetType="Button">
                     <Setter Property="Height" Value="45"/>
                     <Setter Property="Padding" Value="15,0"/>
                     <Setter Property="VerticalAlignment" Value="Center"/>
                     <Setter Property="FontSize" Value="14"/>
                     <Setter Property="Foreground" Value="{StaticResource PrimaryTextBrush}"/>
                     <Setter Property="Background" Value="Transparent"/>
+                    <Setter Property="BorderThickness" Value="0"/>
+                    <Setter Property="HorizontalContentAlignment" Value="Left"/>
                 </Style>
-            </ListBox.ItemContainerStyle>
+            </StackPanel.Resources>
 
-            <ListBoxItem Content="Dashboard"/>
-            <ListBoxItem Content="Processes"/>
-            <ListBoxItem Content="Alerts"/>
-            <ListBoxItem Content="Reports"/>
-            <ListBoxItem Content="Settings"/>
-        </ListBox>
-    </Border>
+            <Button Content="Dashboard" 
+                    Command="{Binding DashboardCommand}" 
+                    CommandParameter="Dashboard" />
+            <Button Content="Processes" 
+                    Command="{Binding ProcessesCommand}" 
+                    CommandParameter="Processes" />
+            <Button Content="Alerts" 
+                    Command="{Binding AlertsCommand}" 
+                    CommandParameter="Alerts" />
+            <Button Content="Reports" 
+                    Command="{Binding ReportsCommand}" 
+                    CommandParameter="Reports" />
+            <Button Content="Settings" 
+                    Command="{Binding SettingsCommand}" 
+                    CommandParameter="Settings" />
+        </StackPanel>
+        </Border>
 </UserControl>

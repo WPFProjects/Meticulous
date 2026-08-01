@@ -28,7 +28,8 @@
 
         <views:NavigationView x:Name="navigationView"
                               Grid.Row="1"
-                              Grid.Column="0"/>
+                              Grid.Column="0"
+                              DataContext="{Binding Navigation}"/>
 
         <Grid Grid.Row="1"
               Grid.Column="1">
@@ -42,7 +43,8 @@
                            Grid.Row="0"/>
 
             <views:ContentRegionView x:Name="contentRegionView"
-                                 Grid.Row="1"/>
+                                 Grid.Row="1"
+                                     DataContext="{Binding ContentRegion}"/>
 
         </Grid>
 

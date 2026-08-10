@@ -35,8 +35,23 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=10.0.0.10, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Bcl.AsyncInterfaces.10.0.10\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection, Version=10.0.0.10, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.DependencyInjection.10.0.10\lib\net462\Microsoft.Extensions.DependencyInjection.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=10.0.0.10, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Extensions.DependencyInjection.Abstractions.10.0.10\lib\net462\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.6.1.2\lib\net462\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.4.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Threading.Tasks.Extensions.4.6.3\lib\net462\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -55,8 +70,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="DependencyInjection\ServiceRegistration.cs" />
     <Compile Include="RelayCommand\RelayCommand.cs" />
-    <Compile Include="Services\NavigationService.cs" />
     <Compile Include="ViewModel\Regions\ContentRegionViewModel.cs" />
     <Compile Include="View\Regions\ContentRegionView.xaml.cs">
       <DependentUpon>ContentRegionView.xaml</DependentUpon>
@@ -73,6 +88,10 @@
     <Compile Include="View\Regions\ToolbarView.xaml.cs">
       <DependentUpon>ToolbarView.xaml</DependentUpon>
     </Compile>
+    <Page Include="Resources\Templates\NavDataTemplate.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Resources\Themes\Brushes.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -97,7 +116,6 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Model\NavigationItem.cs" />
     <Compile Include="Model\StatusBarItem.cs" />
     <Compile Include="Model\ToolbarItems.cs" />
     <Compile Include="ViewModel\MainWindowViewModel.cs" />
@@ -148,6 +166,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -159,9 +178,17 @@
   <ItemGroup>
     <Folder Include="Resources\Icons\" />
     <Folder Include="Resources\Styles\" />
-    <Folder Include="Resources\Templates\" />
+    <Folder Include="Services\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Meticulous.Core\Meticulous.Core.csproj">
+      <Project>{659110c3-4934-499a-b347-de31313ce39b}</Project>
+      <Name>Meticulous.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="Meticulous.Infrastructure\Meticulous.Infrastructure.csproj">
+      <Project>{2b33b813-04a7-40b3-8df2-2dee1c367b3b}</Project>
+      <Name>Meticulous.Infrastructure</Name>
+    </ProjectReference>
     <ProjectReference Include="Meticulous.Modules.Alerts\Meticulous.Modules.Alerts.csproj">
       <Project>{edb3169b-ce7b-4fbc-aa04-8d464722f8d1}</Project>
       <Name>Meticulous.Modules.Alerts</Name>

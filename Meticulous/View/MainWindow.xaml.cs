@@ -1,5 +1,4 @@
-﻿using Meticulous.ViewModel;
-using System.Windows;
+﻿using System.Windows;
 
 namespace Meticulous.Shell.View
 {
@@ -11,7 +10,6 @@ namespace Meticulous.Shell.View
         public MainWindow()
         {
             InitializeComponent();
-            DataContext = new MainWindowViewModel();
         }
     }
 }

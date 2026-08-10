@@ -1,45 +1,34 @@
-﻿using Meticulous.Services;
-using System.ComponentModel;
+﻿using Meticulous.Core;
+using Meticulous.Infrastructure.Services.Navigation;
 
 namespace Meticulous.ViewModel.Regions
 {
-    public class ContentRegionViewModel : INotifyPropertyChanged
+    public class ContentRegionViewModel : ViewModelBase
     {
-        private NavigationService _navigationService;
+        private ViewModelBase _currentViewModel;
 
-        private object _currentView;
-
-        public event PropertyChangedEventHandler PropertyChanged;
-
-        public void OnPropertyChanged(string propertyName)
+        public ViewModelBase CurrentViewModel
         {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
-
-        public object CurrentView
-        {
-            get { return _currentView; }
+            get => _currentViewModel;
             set
             {
-                if (_currentView != value)
+                if (_currentViewModel != value)
                 {
-                    _currentView = value;
-                    // Raise property changed event if implementing INotifyPropertyChanged
-                    OnPropertyChanged("CurrentView");
+                    _currentViewModel = value;
+                    OnPropertyChanged(nameof(CurrentViewModel));
                 }
             }
         }
 
-        public ContentRegionViewModel(NavigationService navigationService)
+        public ContentRegionViewModel(INavigationService navigationService)
         {
-            // Initialize properties and commands for the content region
-            _navigationService = navigationService;
-            _navigationService.CurrentNavigationViewChanged += OnCurrentNavigationViewChanged;
+            CurrentViewModel = navigationService.CurrentViewModel as ViewModelBase;
+            navigationService.CurrentViewChanged += OnCurrentViewChanged;
         }
 
-        private void OnCurrentNavigationViewChanged(object newView)
+        private void OnCurrentViewChanged(ViewModelBase @base)
         {
-            CurrentView = newView;
+            CurrentViewModel = @base;
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿using Meticulous.Services;
+﻿using Meticulous.Infrastructure.Services.Navigation;
 using Meticulous.ViewModel.Regions;
 
 namespace Meticulous.ViewModel
@@ -15,14 +15,18 @@ namespace Meticulous.ViewModel
 
         public StatusBarViewModel StatusBar { get; }
 
-        public MainWindowViewModel()
+        public MainWindowViewModel(INavigationService navigationService,
+            HeaderViewModel headerViewModel,
+            NavigationViewModel navigationViewModel,
+            ToolbarViewModel toolbarViewModel,
+            ContentRegionViewModel contentRegionViewModel,
+            StatusBarViewModel statusBarViewModel)
         {
-            var navigationService = new NavigationService();
-            Header = new HeaderViewModel();
-            Navigation = new NavigationViewModel(navigationService);
-            Toolbar = new ToolbarViewModel();
-            ContentRegion = new ContentRegionViewModel(navigationService);
-            StatusBar = new StatusBarViewModel();
+            Header = headerViewModel;
+            Navigation = navigationViewModel;
+            Toolbar = toolbarViewModel;
+            ContentRegion = contentRegionViewModel;
+            StatusBar = statusBarViewModel;
         }
     }
 }

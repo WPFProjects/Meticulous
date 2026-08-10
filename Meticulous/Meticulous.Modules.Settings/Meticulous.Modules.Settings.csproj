@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModel\SettingsViewModel.cs" />
     <Compile Include="View\SettingsUI.xaml.cs">
       <DependentUpon>SettingsUI.xaml</DependentUpon>
     </Compile>
@@ -56,6 +57,12 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Meticulous.Core\Meticulous.Core.csproj">
+      <Project>{659110C3-4934-499A-B347-DE31313CE39B}</Project>
+      <Name>Meticulous.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

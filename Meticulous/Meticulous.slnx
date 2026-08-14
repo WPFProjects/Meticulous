@@ -1,15 +1,16 @@
 <Solution>
   <Folder Name="/Docs/" />
   <Folder Name="/Docs/Architecture/">
-    <File Path="../Docs/Architecture/NavigationServiceClassDiagram.drawio" />
-    <File Path="../Docs/Architecture/NavigationServiceClassDiagram_Corrected_v2.drawio" />
+    <File Path="../Docs/Architecture/Intro_DI.md" />
     <File Path="../Docs/Architecture/Use of DI.md" />
-    <File Path="Intro_DI.md" />
+  </Folder>
+  <Folder Name="/Docs/Architecture/NavigationService/">
+    <File Path="../Docs/Architecture/NavigationService/NavigationServiceClassDiagram.drawio" />
+    <File Path="../Docs/Architecture/NavigationService/NavigationServiceClassDiagram_Explanation.md" />
   </Folder>
   <Folder Name="/Docs/Decisions/">
     <File Path="../Docs/Decisions/Why App.xaml.cs is Composition Root.md" />
   </Folder>
-  <Folder Name="/Docs/NewFolder1/" />
   <Project Path="Meticulous.Core/Meticulous.Core.csproj" Id="659110c3-4934-499a-b347-de31313ce39b" />
   <Project Path="Meticulous.Infrastructure/Meticulous.Infrastructure.csproj" Id="2b33b813-04a7-40b3-8df2-2dee1c367b3b" />
   <Project Path="Meticulous.Modules.Alerts/Meticulous.Modules.Alerts.csproj" Id="edb3169b-ce7b-4fbc-aa04-8d464722f8d1" />

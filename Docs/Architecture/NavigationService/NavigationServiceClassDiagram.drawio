@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="uKi2WA_6LdWhOEFN8K6V">
-    <mxGraphModel dx="4450" dy="2320" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="2430" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="_pM_-C7OeBCOgyQnPS-v-3" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="NavigationService" vertex="1">
-          <mxGeometry height="182" width="430" y="1220" as="geometry" />
+          <mxGeometry height="182" width="430" x="740" y="2280" as="geometry" />
         </mxCell>
         <mxCell id="_pM_-C7OeBCOgyQnPS-v-6" parent="_pM_-C7OeBCOgyQnPS-v-3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: rgb(43, 145, 175);&quot;&gt;NavigationService&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: rgb(43, 145, 175);&quot;&gt;IServiceProvider&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: rgb(0, 0, 255);&quot;&gt;serviceProvider&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: type&lt;/span&gt;&lt;div&gt;+&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: rgb(116, 83, 31);&quot;&gt;NavigateTo&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: rgb(43, 145, 175);&quot;&gt;TViewModel&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;gt;()&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: void&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;{&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: rgb(43, 145, 175);&quot;&gt;TViewModel&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; : &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: rgb(43, 145, 175);&quot;&gt;ViewModelBase&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;+&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: rgb(116, 83, 31);&quot;&gt;NavigateTo&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: rgb(43, 145, 175);&quot;&gt;Type&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: rgb(31, 55, 127);&quot;&gt;viewModelType&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: void&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="74" width="430" y="26" as="geometry" />
@@ -17,10 +17,10 @@
           <mxGeometry height="8" width="430" y="174" as="geometry" />
         </mxCell>
         <mxCell id="_pM_-C7OeBCOgyQnPS-v-7" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;&lt;/i&gt;interface&lt;i&gt;&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;INavigationService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;color: rgb(0, 0, 255); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent;&quot;&gt;CurrentViewModel&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 255); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent;&quot;&gt;ViewModelBase&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;color: rgb(0, 0, 255); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent;&quot;&gt;CurrentViewChanged&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: rgb(0, 0, 255);&quot;&gt;event&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: rgb(43, 145, 175);&quot;&gt;Action&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: rgb(43, 145, 175);&quot;&gt;ViewModelBase&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: rgb(116, 83, 31);&quot;&gt;NavigateTo&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: rgb(43, 145, 175);&quot;&gt;TViewModel&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;gt;() &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: rgb(43, 145, 175);&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 255); font-family: &amp;quot;Cascadia Mono&amp;quot;; background-color: transparent;&quot;&gt;void&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 255); font-family: &amp;quot;Cascadia Mono&amp;quot;; background-color: transparent;&quot;&gt;&amp;nbsp; {&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; font-family: &amp;quot;Cascadia Mono&amp;quot;; color: rgb(43, 145, 175);&quot;&gt;TViewModel&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 9pt; font-family: &amp;quot;Cascadia Mono&amp;quot;;&quot;&gt; : &lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; font-family: &amp;quot;Cascadia Mono&amp;quot;; color: rgb(43, 145, 175);&quot;&gt;ViewModelBase }&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; font-family: &amp;quot;Cascadia Mono&amp;quot;; color: rgb(43, 145, 175);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: rgb(116, 83, 31);&quot;&gt;NavigateTo&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: rgb(43, 145, 175);&quot;&gt;Type&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: rgb(31, 55, 127);&quot;&gt;viewModelType&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 255); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent;&quot;&gt;void&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="160" width="340" x="40" y="970" as="geometry" />
+          <mxGeometry height="160" width="340" x="1060" y="1811" as="geometry" />
         </mxCell>
         <mxCell id="_pM_-C7OeBCOgyQnPS-v-8" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="ServiceRegistration" vertex="1">
-          <mxGeometry height="78" width="320" x="2290" y="480" as="geometry" />
+          <mxGeometry height="78" width="320" x="2595" y="1090" as="geometry" />
         </mxCell>
         <mxCell id="_pM_-C7OeBCOgyQnPS-v-9" parent="_pM_-C7OeBCOgyQnPS-v-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ field: type" vertex="1">
           <mxGeometry height="18" width="320" y="26" as="geometry" />
@@ -32,7 +32,7 @@
           <mxGeometry height="26" width="320" y="52" as="geometry" />
         </mxCell>
         <mxCell id="_pM_-C7OeBCOgyQnPS-v-16" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Abstract class ViewModelBase" vertex="1">
-          <mxGeometry height="86" width="380" x="1490" y="480" as="geometry" />
+          <mxGeometry height="86" width="380" x="1970" y="1400" as="geometry" />
         </mxCell>
         <mxCell id="_pM_-C7OeBCOgyQnPS-v-17" parent="_pM_-C7OeBCOgyQnPS-v-16" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+&amp;nbsp;&lt;span style=&quot;color: rgb(0, 0, 255); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent;&quot;&gt;event&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(43, 145, 175); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent;&quot;&gt;PropertyChangedEventHandler&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PropertyChanged&lt;/span&gt;" vertex="1">
           <mxGeometry height="26" width="380" y="26" as="geometry" />
@@ -44,25 +44,25 @@
           <mxGeometry height="26" width="380" y="60" as="geometry" />
         </mxCell>
         <mxCell id="_pM_-C7OeBCOgyQnPS-v-20" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="DashboardViewModels" vertex="1">
-          <mxGeometry height="52" width="190" x="1780" y="910" as="geometry" />
+          <mxGeometry height="52" width="190" x="2530" y="1830" as="geometry" />
         </mxCell>
         <mxCell id="_pM_-C7OeBCOgyQnPS-v-24" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="AlertsViewModels" vertex="1">
-          <mxGeometry height="52" width="190" x="2232" y="910" as="geometry" />
+          <mxGeometry height="52" width="190" x="2982" y="1830" as="geometry" />
         </mxCell>
         <mxCell id="_pM_-C7OeBCOgyQnPS-v-25" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="NotificationViewModel" vertex="1">
-          <mxGeometry height="52" width="190" x="2476" y="910" as="geometry" />
+          <mxGeometry height="52" width="190" x="3208" y="1830" as="geometry" />
         </mxCell>
         <mxCell id="_pM_-C7OeBCOgyQnPS-v-26" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="ProcessesViewModel" vertex="1">
-          <mxGeometry height="52" width="190" x="2956" y="910" as="geometry" />
+          <mxGeometry height="52" width="190" x="3688" y="1830" as="geometry" />
         </mxCell>
         <mxCell id="_pM_-C7OeBCOgyQnPS-v-27" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="SettingsViewModel" vertex="1">
-          <mxGeometry height="52" width="190" x="2720" y="910" as="geometry" />
+          <mxGeometry height="52" width="190" x="3452" y="1830" as="geometry" />
         </mxCell>
         <mxCell id="_pM_-C7OeBCOgyQnPS-v-28" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="ReportsViewModels" vertex="1">
-          <mxGeometry height="52" width="190" x="2006" y="910" as="geometry" />
+          <mxGeometry height="52" width="190" x="2756" y="1830" as="geometry" />
         </mxCell>
         <mxCell id="_pM_-C7OeBCOgyQnPS-v-31" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="ContentRegionViewModel" vertex="1">
-          <mxGeometry height="122" width="490" x="1090" y="910" as="geometry" />
+          <mxGeometry height="122" width="490" x="1990" y="1830" as="geometry" />
         </mxCell>
         <mxCell id="_pM_-C7OeBCOgyQnPS-v-32" parent="_pM_-C7OeBCOgyQnPS-v-31" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+&amp;nbsp;&lt;span style=&quot;color: rgb(0, 0, 255); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent;&quot;&gt;_currentViewModel&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 255); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent;&quot;&gt;ViewModelBase&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 255); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica;&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 9pt; background-color: transparent;&quot;&gt;CurrentViewModel&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-family: Helvetica;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: rgb(0, 0, 255); font-size: 9pt;&quot;&gt;ViewModelBase&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="44" width="490" y="26" as="geometry" />
@@ -74,7 +74,7 @@
           <mxGeometry height="44" width="490" y="78" as="geometry" />
         </mxCell>
         <mxCell id="_pM_-C7OeBCOgyQnPS-v-35" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="NavigationViewModel" vertex="1">
-          <mxGeometry height="226" width="490" x="200" y="480" as="geometry" />
+          <mxGeometry height="226" width="490" x="1170" y="1400" as="geometry" />
         </mxCell>
         <mxCell id="_pM_-C7OeBCOgyQnPS-v-36" parent="_pM_-C7OeBCOgyQnPS-v-35" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+&amp;nbsp;&lt;span style=&quot;color: rgb(0, 0, 255); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent;&quot;&gt;_navigationService&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(43, 145, 175); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent;&quot;&gt;INavigationService&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 255); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;color: rgb(0, 0, 255); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent;&quot;&gt;NavigationItems&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: rgb(43, 145, 175);&quot;&gt;ObservableCollection&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: rgb(0, 0, 255);&quot;&gt;NavigationItem&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 255); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 255); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;color: rgb(0, 0, 255); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent;&quot;&gt;DashboardCommand&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; font-size: 9pt;&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 255); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent;&quot;&gt;ICommand&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 255); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;color: rgb(0, 0, 255); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent;&quot;&gt;ProcessesCommand&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; font-size: 9pt;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; color: rgb(0, 0, 255); font-family: &amp;quot;Cascadia Mono&amp;quot;;&quot;&gt;ICommand&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 9pt; background-color: transparent; font-family: &amp;quot;Cascadia Mono&amp;quot;;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 255); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); background-color: transparent;&quot;&gt;AlertsCommand&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; font-size: 9pt;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; color: rgb(0, 0, 255); font-family: &amp;quot;Cascadia Mono&amp;quot;;&quot;&gt;ICommand&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 9pt; background-color: transparent; font-family: &amp;quot;Cascadia Mono&amp;quot;;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 255); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;color: rgb(0, 0, 255); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent;&quot;&gt;ReportsCommand&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; font-size: 9pt;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; color: rgb(0, 0, 255); font-family: &amp;quot;Cascadia Mono&amp;quot;;&quot;&gt;ICommand&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 9pt; background-color: transparent; font-family: &amp;quot;Cascadia Mono&amp;quot;;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 255); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;color: rgb(0, 0, 255); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent;&quot;&gt;SettingsCommand&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent; font-size: 9pt;&quot;&gt;: &lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; color: rgb(0, 0, 255); font-family: &amp;quot;Cascadia Mono&amp;quot;;&quot;&gt;ICommand&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 9pt; background-color: transparent; font-family: &amp;quot;Cascadia Mono&amp;quot;;&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 255); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 9pt; background-color: transparent; font-family: &amp;quot;Cascadia Mono&amp;quot;;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 255); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 9pt; background-color: transparent; font-family: &amp;quot;Cascadia Mono&amp;quot;;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 255); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica;&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 9pt; background-color: transparent; font-family: &amp;quot;Cascadia Mono&amp;quot;;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="160" width="490" y="26" as="geometry" />
@@ -86,7 +86,7 @@
           <mxGeometry height="32" width="490" y="194" as="geometry" />
         </mxCell>
         <mxCell id="_pM_-C7OeBCOgyQnPS-v-39" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="App" vertex="1">
-          <mxGeometry height="68" width="490" x="2205" y="200" as="geometry" />
+          <mxGeometry height="68" width="490" x="2510" y="810" as="geometry" />
         </mxCell>
         <mxCell id="_pM_-C7OeBCOgyQnPS-v-40" parent="_pM_-C7OeBCOgyQnPS-v-39" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 255); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="8" width="490" y="26" as="geometry" />
@@ -98,7 +98,7 @@
           <mxGeometry height="26" width="490" y="42" as="geometry" />
         </mxCell>
         <mxCell id="_pM_-C7OeBCOgyQnPS-v-44" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="NavigationItem" vertex="1">
-          <mxGeometry height="110" width="400" x="530" y="960" as="geometry" />
+          <mxGeometry height="110" width="400" x="1510" y="1692" as="geometry" />
         </mxCell>
         <mxCell id="_pM_-C7OeBCOgyQnPS-v-45" parent="_pM_-C7OeBCOgyQnPS-v-44" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+&amp;nbsp;&lt;span style=&quot;color: rgb(0, 0, 255); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent;&quot;&gt;Name&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 255); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 255); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica;&quot;&gt;+&amp;nbsp;&lt;span style=&quot;color: rgb(0, 0, 255); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent;&quot;&gt;ViewModelType&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 9pt; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(43, 145, 175); font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent;&quot;&gt;Type&lt;/span&gt;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="44" width="400" y="26" as="geometry" />
@@ -109,126 +109,216 @@
         <mxCell id="_pM_-C7OeBCOgyQnPS-v-47" parent="_pM_-C7OeBCOgyQnPS-v-44" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: rgb(43, 145, 175);&quot;&gt;NavigationItem&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: rgb(0, 0, 255);&quot;&gt;string&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: rgb(31, 55, 127);&quot;&gt;name&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;, &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: rgb(43, 145, 175);&quot;&gt;Type&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt; &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: rgb(31, 55, 127);&quot;&gt;viewModelType&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Cascadia Mono&amp;quot;; font-size: 9pt; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: type&lt;/span&gt;&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="32" width="400" y="78" as="geometry" />
         </mxCell>
-        <mxCell id="_pM_-C7OeBCOgyQnPS-v-48" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-7" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_pM_-C7OeBCOgyQnPS-v-3" value="Extends">
+        <mxCell id="_pM_-C7OeBCOgyQnPS-v-48" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-3" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" target="_pM_-C7OeBCOgyQnPS-v-7" value="Extends">
           <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="610" y="1360" as="sourcePoint" />
-            <mxPoint x="213.1872509960158" y="1210" as="targetPoint" />
+            <mxPoint x="1360" y="2280" as="sourcePoint" />
+            <mxPoint x="1250" y="2000" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_pM_-C7OeBCOgyQnPS-v-49" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-16" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" target="_pM_-C7OeBCOgyQnPS-v-20" value="">
+        <mxCell id="_pM_-C7OeBCOgyQnPS-v-61" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-8" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" target="_pM_-C7OeBCOgyQnPS-v-20" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Registers&lt;/span&gt;&#xa;&#xa;">
           <mxGeometry relative="1" width="160" as="geometry">
             <Array as="points" />
-            <mxPoint x="1240" y="670" as="sourcePoint" />
-            <mxPoint x="1400" y="670" as="targetPoint" />
+            <mxPoint x="3470" y="1360" as="sourcePoint" />
+            <mxPoint x="2787" y="2014" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_pM_-C7OeBCOgyQnPS-v-50" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-16" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" target="_pM_-C7OeBCOgyQnPS-v-28" value="">
+        <mxCell id="_pM_-C7OeBCOgyQnPS-v-62" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-8" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" target="_pM_-C7OeBCOgyQnPS-v-28" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Registers&lt;/span&gt;&#xa;&#xa;">
           <mxGeometry relative="1" width="160" as="geometry">
             <Array as="points" />
-            <mxPoint x="1499" y="540" as="sourcePoint" />
-            <mxPoint x="1170" y="634" as="targetPoint" />
+            <mxPoint x="2494" y="1670" as="sourcePoint" />
+            <mxPoint x="3010" y="2018" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_pM_-C7OeBCOgyQnPS-v-51" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-16" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" target="_pM_-C7OeBCOgyQnPS-v-24" value="">
+        <mxCell id="_pM_-C7OeBCOgyQnPS-v-63" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-8" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" target="_pM_-C7OeBCOgyQnPS-v-24" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Registers&lt;/span&gt;&#xa;&#xa;">
           <mxGeometry relative="1" width="160" as="geometry">
             <Array as="points" />
-            <mxPoint x="1524" y="570" as="sourcePoint" />
-            <mxPoint x="1340" y="628" as="targetPoint" />
+            <mxPoint x="2517" y="1670" as="sourcePoint" />
+            <mxPoint x="3211" y="2014" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_pM_-C7OeBCOgyQnPS-v-52" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-16" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" target="_pM_-C7OeBCOgyQnPS-v-25" value="">
+        <mxCell id="_pM_-C7OeBCOgyQnPS-v-64" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-8" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" target="_pM_-C7OeBCOgyQnPS-v-25" value="Registers">
           <mxGeometry relative="1" width="160" as="geometry">
             <Array as="points" />
-            <mxPoint x="1754" y="570" as="sourcePoint" />
-            <mxPoint x="1570" y="628" as="targetPoint" />
+            <mxPoint x="2542" y="1670" as="sourcePoint" />
+            <mxPoint x="3439" y="2014" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_pM_-C7OeBCOgyQnPS-v-53" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-16" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" target="_pM_-C7OeBCOgyQnPS-v-27" value="">
+        <mxCell id="_pM_-C7OeBCOgyQnPS-v-65" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-8" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" target="_pM_-C7OeBCOgyQnPS-v-27" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Registers&lt;/span&gt;&#xa;&#xa;">
           <mxGeometry relative="1" width="160" as="geometry">
             <Array as="points" />
-            <mxPoint x="1964" y="530" as="sourcePoint" />
-            <mxPoint x="1780" y="588" as="targetPoint" />
+            <mxPoint x="3570" y="1400" as="sourcePoint" />
+            <mxPoint x="3704" y="2014" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_pM_-C7OeBCOgyQnPS-v-54" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-16" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.325;entryY=-0.083;entryDx=0;entryDy=0;entryPerimeter=0;" target="_pM_-C7OeBCOgyQnPS-v-26" value="">
+        <mxCell id="_pM_-C7OeBCOgyQnPS-v-66" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-8" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" target="_pM_-C7OeBCOgyQnPS-v-26" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Registers&lt;/span&gt;&#xa;&#xa;">
           <mxGeometry relative="1" width="160" as="geometry">
             <Array as="points" />
-            <mxPoint x="2074" y="490" as="sourcePoint" />
-            <mxPoint x="1890" y="548" as="targetPoint" />
+            <mxPoint x="2601" y="1670" as="sourcePoint" />
+            <mxPoint x="3954" y="2010" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_pM_-C7OeBCOgyQnPS-v-55" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-16" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=1.005;entryY=0.105;entryDx=0;entryDy=0;entryPerimeter=0;" target="_pM_-C7OeBCOgyQnPS-v-36" value="">
+        <mxCell id="cHLd9li4fsHl7h52wL6t-1" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-35" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" target="_pM_-C7OeBCOgyQnPS-v-7" value="depends on">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="1250" y="1732" as="sourcePoint" />
+            <mxPoint x="1410" y="1720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cHLd9li4fsHl7h52wL6t-2" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-8" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="_pM_-C7OeBCOgyQnPS-v-35" value="registers">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3010" y="930" as="sourcePoint" />
+            <mxPoint x="1960" y="998.4782608695654" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cHLd9li4fsHl7h52wL6t-3" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-35" style="endArrow=block;endFill=0;endSize=14;html=1;rounded=0;" target="_pM_-C7OeBCOgyQnPS-v-16" value="Inherits">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1550" y="1493" as="sourcePoint" />
+            <mxPoint x="2160" y="1430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cHLd9li4fsHl7h52wL6t-5" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-31" style="endArrow=block;endFill=0;endSize=14;html=1;rounded=0;" target="_pM_-C7OeBCOgyQnPS-v-16" value="CurrentViewModel">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2210" y="1773" as="sourcePoint" />
+            <mxPoint x="2120" y="1390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cHLd9li4fsHl7h52wL6t-6" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-20" style="endArrow=block;endFill=0;endSize=14;html=1;rounded=0;" target="_pM_-C7OeBCOgyQnPS-v-16" value="Inherits">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2328" y="1954" as="sourcePoint" />
+            <mxPoint x="2270" y="1610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cHLd9li4fsHl7h52wL6t-7" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-28" style="endArrow=block;endFill=0;endSize=14;html=1;rounded=0;" target="_pM_-C7OeBCOgyQnPS-v-16" value="Inherits">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2638" y="2054" as="sourcePoint" />
+            <mxPoint x="2580" y="1710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cHLd9li4fsHl7h52wL6t-8" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-24" style="endArrow=block;endFill=0;endSize=14;html=1;rounded=0;" target="_pM_-C7OeBCOgyQnPS-v-16" value="Inherits">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3060" y="1850" as="sourcePoint" />
+            <mxPoint x="2330" y="1486" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cHLd9li4fsHl7h52wL6t-9" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-25" style="endArrow=block;endFill=0;endSize=14;html=1;rounded=0;" target="_pM_-C7OeBCOgyQnPS-v-16" value="Inherits">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3139" y="1814" as="sourcePoint" />
+            <mxPoint x="2250" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cHLd9li4fsHl7h52wL6t-10" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-27" style="endArrow=block;endFill=0;endSize=14;html=1;rounded=0;" target="_pM_-C7OeBCOgyQnPS-v-16" value="Inherits">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3397" y="1754" as="sourcePoint" />
+            <mxPoint x="2305" y="1410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cHLd9li4fsHl7h52wL6t-11" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-26" style="endArrow=block;endFill=0;endSize=14;html=1;rounded=0;" target="_pM_-C7OeBCOgyQnPS-v-16" value="Inherits">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3558" y="1785" as="sourcePoint" />
+            <mxPoint x="2260" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cHLd9li4fsHl7h52wL6t-12" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-8" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" target="_pM_-C7OeBCOgyQnPS-v-31" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Registers&lt;/span&gt;&#xa;&#xa;">
           <mxGeometry relative="1" width="160" as="geometry">
             <Array as="points" />
-            <mxPoint x="1710" y="710" as="sourcePoint" />
-            <mxPoint x="2144" y="775" as="targetPoint" />
+            <mxPoint x="3190" y="1130" as="sourcePoint" />
+            <mxPoint x="2650" y="2012" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_pM_-C7OeBCOgyQnPS-v-56" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-16" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" target="_pM_-C7OeBCOgyQnPS-v-31" value="">
+        <mxCell id="cHLd9li4fsHl7h52wL6t-13" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-8" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" target="_pM_-C7OeBCOgyQnPS-v-3" value="&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;Registers&lt;/span&gt;&#xa;&#xa;">
           <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="1150" />
+            </Array>
+            <mxPoint x="2556" y="1060" as="sourcePoint" />
+            <mxPoint x="1550" y="1942" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cHLd9li4fsHl7h52wL6t-14" parent="1" style="swimlane;html=1;horizontal=1;startSize=38;rounded=0;whiteSpace=wrap;align=center;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center&quot;&gt;&lt;b&gt;&lt;&lt;interface&gt;&gt;&lt;br&gt;IServiceProvider&lt;/b&gt;&lt;/div&gt;&lt;hr&gt;&lt;hr&gt;" vertex="1">
+          <mxGeometry height="100" width="330" x="1900" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="cHLd9li4fsHl7h52wL6t-15" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-8" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" target="cHLd9li4fsHl7h52wL6t-14" value="builds">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2400" y="950" as="sourcePoint" />
+            <mxPoint x="2400" y="1600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cHLd9li4fsHl7h52wL6t-16" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-3" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" target="cHLd9li4fsHl7h52wL6t-14" value="uses">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="965" y="950" />
+            </Array>
+            <mxPoint x="980" y="3420.1817626953125" as="sourcePoint" />
+            <mxPoint x="2695" y="1072" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cHLd9li4fsHl7h52wL6t-17" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-39" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" target="cHLd9li4fsHl7h52wL6t-14" value="uses">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2301" y="888" as="sourcePoint" />
+            <mxPoint x="2020" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cHLd9li4fsHl7h52wL6t-18" parent="1" style="swimlane;html=1;horizontal=1;startSize=38;rounded=0;whiteSpace=wrap;align=center;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center&quot;&gt;MainWindowViewModel&lt;/div&gt;" vertex="1">
+          <mxGeometry height="78" width="330" x="3190" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="cHLd9li4fsHl7h52wL6t-21" parent="cHLd9li4fsHl7h52wL6t-18" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="+ MainWindowViewModel(...) : void" vertex="1">
+          <mxGeometry height="30" width="210" x="60" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cHLd9li4fsHl7h52wL6t-19" parent="1" style="swimlane;html=1;horizontal=1;startSize=38;rounded=0;whiteSpace=wrap;align=center;verticalAlign=middle;" value="&lt;div style=&quot;text-align:center&quot;&gt;MainWindow&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="330" x="3186" y="1068" as="geometry" />
+        </mxCell>
+        <mxCell id="cHLd9li4fsHl7h52wL6t-22" parent="cHLd9li4fsHl7h52wL6t-19" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;+ DataContext : object&lt;/div&gt;&lt;div&gt;+ Show() : void&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="140" x="95" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cHLd9li4fsHl7h52wL6t-20" edge="1" parent="1" source="cHLd9li4fsHl7h52wL6t-19" style="endArrow=open;endSize=12;html=1;rounded=0;" target="cHLd9li4fsHl7h52wL6t-18" value="DataContext">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cHLd9li4fsHl7h52wL6t-23" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-8" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" target="cHLd9li4fsHl7h52wL6t-18" value="registers">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3488" y="1000" as="sourcePoint" />
+            <mxPoint x="2990" y="1700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cHLd9li4fsHl7h52wL6t-24" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-39" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" target="_pM_-C7OeBCOgyQnPS-v-8" value="configures">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3243" y="1860" as="sourcePoint" />
+            <mxPoint x="2730" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cHLd9li4fsHl7h52wL6t-25" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-39" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" target="cHLd9li4fsHl7h52wL6t-18" value="resolves">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3930" y="958" as="sourcePoint" />
+            <mxPoint x="3090" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cHLd9li4fsHl7h52wL6t-26" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-39" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" target="cHLd9li4fsHl7h52wL6t-19" value="creates">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4030" y="1080" as="sourcePoint" />
+            <mxPoint x="3070" y="1184" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cHLd9li4fsHl7h52wL6t-27" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;align=left;verticalAlign=top;spacing=10;" value="&lt;div&gt;&lt;b&gt;UML relationship legend&lt;/b&gt;&lt;/div&gt; &lt;div&gt;━━▷ Generalization / inheritance&lt;/div&gt; &lt;div&gt;- - - -▷ Realization / implements&lt;/div&gt; &lt;div&gt;- - - -→ Dependency / uses / registers&lt;/div&gt; &lt;div&gt;━━→ Association / has reference&lt;/div&gt;" vertex="1">
+          <mxGeometry height="190" width="360" x="290" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="cHLd9li4fsHl7h52wL6t-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;verticalAlign=top;spacing=10;" value="&lt;b&gt;Scope&lt;/b&gt;&lt;br&gt;Structural class diagram for Navigation + DI/Composition Root.&lt;br&gt;&lt;br&gt; &lt;font color=&quot;#666666&quot;&gt;DataTemplate → View mappings are intentionally excluded; document them in a separate ViewModel-to-View mapping diagram.&lt;/font&gt;" vertex="1">
+          <mxGeometry height="160" width="360" x="290" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="cHLd9li4fsHl7h52wL6t-30" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-31" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" target="_pM_-C7OeBCOgyQnPS-v-7" value="depends on">
+          <mxGeometry relative="1" as="geometry">
             <Array as="points" />
-            <mxPoint x="1635" y="700" as="sourcePoint" />
-            <mxPoint x="1430" y="914" as="targetPoint" />
+            <mxPoint x="1521" y="2090" as="sourcePoint" />
+            <mxPoint x="1440" y="2256" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_pM_-C7OeBCOgyQnPS-v-58" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-35" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_pM_-C7OeBCOgyQnPS-v-44" value="Use">
-          <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="1050" y="790" as="sourcePoint" />
-            <mxPoint x="1210" y="790" as="targetPoint" />
+        <mxCell id="cHLd9li4fsHl7h52wL6t-31" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-35" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;" target="_pM_-C7OeBCOgyQnPS-v-44" value="1">
+          <mxGeometry relative="1" x="-1" y="3" as="geometry">
+            <mxPoint x="1640" y="1660" as="sourcePoint" />
+            <mxPoint x="1800" y="1660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_pM_-C7OeBCOgyQnPS-v-60" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-35" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="_pM_-C7OeBCOgyQnPS-v-7" value="Use">
-          <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="320" y="690" as="sourcePoint" />
-            <mxPoint x="325" y="820" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_pM_-C7OeBCOgyQnPS-v-61" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-8" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" target="_pM_-C7OeBCOgyQnPS-v-20" value="">
-          <mxGeometry relative="1" width="160" as="geometry">
-            <Array as="points" />
-            <mxPoint x="2720" y="440" as="sourcePoint" />
-            <mxPoint x="2037" y="1094" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_pM_-C7OeBCOgyQnPS-v-62" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-8" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" target="_pM_-C7OeBCOgyQnPS-v-28" value="">
-          <mxGeometry relative="1" width="160" as="geometry">
-            <Array as="points" />
-            <mxPoint x="1744" y="750" as="sourcePoint" />
-            <mxPoint x="2260" y="1098" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_pM_-C7OeBCOgyQnPS-v-63" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-8" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" target="_pM_-C7OeBCOgyQnPS-v-24" value="">
-          <mxGeometry relative="1" width="160" as="geometry">
-            <Array as="points" />
-            <mxPoint x="1767" y="750" as="sourcePoint" />
-            <mxPoint x="2461" y="1094" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_pM_-C7OeBCOgyQnPS-v-64" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-8" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" target="_pM_-C7OeBCOgyQnPS-v-25" value="">
-          <mxGeometry relative="1" width="160" as="geometry">
-            <Array as="points" />
-            <mxPoint x="1792" y="750" as="sourcePoint" />
-            <mxPoint x="2689" y="1094" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_pM_-C7OeBCOgyQnPS-v-65" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-8" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" target="_pM_-C7OeBCOgyQnPS-v-27" value="">
-          <mxGeometry relative="1" width="160" as="geometry">
-            <Array as="points" />
-            <mxPoint x="2820" y="480" as="sourcePoint" />
-            <mxPoint x="2954" y="1094" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_pM_-C7OeBCOgyQnPS-v-66" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-8" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;" target="_pM_-C7OeBCOgyQnPS-v-26" value="">
-          <mxGeometry relative="1" width="160" as="geometry">
-            <Array as="points" />
-            <mxPoint x="1851" y="750" as="sourcePoint" />
-            <mxPoint x="3204" y="1090" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="_pM_-C7OeBCOgyQnPS-v-68" edge="1" parent="1" source="_pM_-C7OeBCOgyQnPS-v-39" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" target="_pM_-C7OeBCOgyQnPS-v-8" value="Use">
-          <mxGeometry relative="1" width="160" as="geometry">
-            <mxPoint x="2390" y="290" as="sourcePoint" />
-            <mxPoint x="2587" y="544" as="targetPoint" />
+        <mxCell id="cHLd9li4fsHl7h52wL6t-32" connectable="0" parent="cHLd9li4fsHl7h52wL6t-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Many Items" vertex="1">
+          <mxGeometry relative="1" x="-0.388" y="5" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>

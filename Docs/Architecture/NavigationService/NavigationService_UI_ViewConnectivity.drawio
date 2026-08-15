@@ -1,0 +1,149 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram name="Navigation UI View Connectivity" id="ui-navigation-1">
+    <mxGraphModel dx="2430" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AQu_YrDqeqDvLqd1712p-2" edge="1" parent="1" source="mainWindow" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="mainVm" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mainWindow" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=16;" value="MainWindow (View)" vertex="1">
+          <mxGeometry height="80" width="280" x="1540" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="mainVm" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=15;" value="MainWindowViewModel (ViewModel)" vertex="1">
+          <mxGeometry height="80" width="280" x="1540" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="mainDataContext" edge="1" parent="1" source="mainWindow" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;" target="mainVm" value="DataContext">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="navView" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="NavigationView (View)" vertex="1">
+          <mxGeometry height="70" width="220" x="810" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="navVm" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;" value="NavigationViewModel (ViewModel)" vertex="1">
+          <mxGeometry height="70" width="220" x="1270" y="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="contentView" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="ContentRegionView (View) ContentControl" vertex="1">
+          <mxGeometry height="80" width="220" x="1990" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="contentVm" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=13;" value="ContentRegionViewModel (ViewModel)" vertex="1">
+          <mxGeometry height="70" width="220" x="1560" y="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="mainNav" edge="1" parent="1" source="mainVm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=open;strokeWidth=1.5;" target="navVm" value="has / exposes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mainContent" edge="1" parent="1" source="mainVm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=open;strokeWidth=1.5;" target="contentVm" value="has / exposes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="navDc" edge="1" parent="1" source="navView" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#6c8ebf;" target="navVm" value="DataContext">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="contentDc" edge="1" parent="1" source="contentView" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#6c8ebf;" target="contentVm" value="DataContext">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="navInterface" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=14;" value="INavigationService (abstraction)" vertex="1">
+          <mxGeometry height="80" width="250" x="1050" y="1840" as="geometry" />
+        </mxCell>
+        <mxCell id="navService" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=14;" value="NavigationService (implementation)" vertex="1">
+          <mxGeometry height="80" width="250" x="1254" y="2130" as="geometry" />
+        </mxCell>
+        <mxCell id="navVmToInterface" edge="1" parent="1" source="navVm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;" target="navInterface" value="calls NavigateTo&lt;T&gt;()">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="interfaceToService" edge="1" parent="1" source="navService" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=block;endFill=0;strokeWidth=2;" target="navInterface" value="implemented by">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="contentToInterface" edge="1" parent="1" source="contentVm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=open;strokeWidth=1.5;" target="navInterface" value="subscribes to CurrentViewChanged">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1480" y="1685" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="currentVm" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;" value="CurrentViewModel (Dashboard / Processes / Alerts / Reports / Settings)" vertex="1">
+          <mxGeometry height="80" width="330" x="1670" y="1830" as="geometry" />
+        </mxCell>
+        <mxCell id="serviceCurrent" edge="1" parent="1" source="navService" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;" target="currentVm" value="sets / changes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="currentToContent" edge="1" parent="1" source="currentVm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=block;endFill=1;strokeWidth=1.5;" target="contentVm" value="updates">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dashboardVm" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;" value="DashboardViewModel" vertex="1">
+          <mxGeometry height="60" width="170" x="940" y="2340" as="geometry" />
+        </mxCell>
+        <mxCell id="processVm" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;" value="ProcessesViewModel" vertex="1">
+          <mxGeometry height="60" width="170" x="1130" y="2340" as="geometry" />
+        </mxCell>
+        <mxCell id="alertsVm" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;" value="AlertsViewModel" vertex="1">
+          <mxGeometry height="60" width="170" x="1320" y="2340" as="geometry" />
+        </mxCell>
+        <mxCell id="reportsVm" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;" value="ReportsViewModel" vertex="1">
+          <mxGeometry height="60" width="170" x="1510" y="2340" as="geometry" />
+        </mxCell>
+        <mxCell id="settingsVm" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=13;" value="SettingsViewModel" vertex="1">
+          <mxGeometry height="60" width="170" x="1700" y="2340" as="geometry" />
+        </mxCell>
+        <mxCell id="dataTemplate" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=14;" value="WPF DataTemplates ViewModel → View mapping" vertex="1">
+          <mxGeometry height="80" width="300" x="2290" y="1830" as="geometry" />
+        </mxCell>
+        <mxCell id="contentToTemplate" edge="1" parent="1" source="contentView" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeWidth=2;" target="dataTemplate" value="ContentControl uses template">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="templateToCurrent" edge="1" parent="1" source="dataTemplate" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;dashed=1;endArrow=open;" target="currentVm" value="matches ViewModel type">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dashboardView" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;" value="DashboardUI (View)" vertex="1">
+          <mxGeometry height="60" width="170" x="940" y="2430" as="geometry" />
+        </mxCell>
+        <mxCell id="processView" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;" value="ProcessesUI (View)" vertex="1">
+          <mxGeometry height="60" width="170" x="1130" y="2430" as="geometry" />
+        </mxCell>
+        <mxCell id="alertsView" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;" value="AlertsUI (View)" vertex="1">
+          <mxGeometry height="60" width="170" x="1320" y="2430" as="geometry" />
+        </mxCell>
+        <mxCell id="reportsView" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;" value="ReportsUI (View)" vertex="1">
+          <mxGeometry height="60" width="170" x="1510" y="2430" as="geometry" />
+        </mxCell>
+        <mxCell id="settingsView" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;" value="SettingsUI (View)" vertex="1">
+          <mxGeometry height="60" width="170" x="1700" y="2430" as="geometry" />
+        </mxCell>
+        <mxCell id="dv" edge="1" parent="1" source="dashboardView" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#6c8ebf;" target="dashboardVm" value="DataContext">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pv" edge="1" parent="1" source="processView" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#6c8ebf;" target="processVm" value="DataContext">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="av" edge="1" parent="1" source="alertsView" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#6c8ebf;" target="alertsVm" value="DataContext">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rv" edge="1" parent="1" source="reportsView" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#6c8ebf;" target="reportsVm" value="DataContext">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sv" edge="1" parent="1" source="settingsView" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;strokeColor=#6c8ebf;" target="settingsVm" value="DataContext">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="navItem" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;" value="NavigationItem Name + ViewModelType" vertex="1">
+          <mxGeometry height="80" width="220" x="820" y="1520" as="geometry" />
+        </mxCell>
+        <mxCell id="navViewItem" edge="1" parent="1" source="navView" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=block;endFill=1;" target="navItem" value="ItemsSource / Command">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1100" y="1285" />
+            </Array>
+            <mxPoint x="1510" y="1240" as="sourcePoint" />
+            <mxPoint x="1120" y="1725" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="itemToNavVm" edge="1" parent="1" source="navItem" style="edgeStyle=orthogonalEdgeStyle;html=1;dashed=1;endArrow=open;" target="navVm" value="used by">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#999999;fontSize=12;" value="Legend:  Blue = View   |   Green = ViewModel   |   Yellow = Interface / navigation metadata   |   Red = Service   |   Purple = Current ViewModel   |   Gray = WPF DataTemplate" vertex="1">
+          <mxGeometry height="55" width="1300" x="940" y="2590" as="geometry" />
+        </mxCell>
+        <mxCell id="note" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=13;" value="Key flow: User clicks NavigationView → NavigationViewModel command → INavigationService → NavigationService changes CurrentViewModel → ContentRegionViewModel receives change → ContentControl selects DataTemplate → corresponding View is displayed." vertex="1">
+          <mxGeometry height="80" width="1300" x="940" y="2660" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -6,7 +6,11 @@
   </Folder>
   <Folder Name="/Docs/Architecture/NavigationService/">
     <File Path="../Docs/Architecture/NavigationService/NavigationServiceClassDiagram.drawio" />
+    <File Path="../Docs/Architecture/NavigationService/NavigationServiceClassDiagram.png" />
     <File Path="../Docs/Architecture/NavigationService/NavigationServiceClassDiagram_Explanation.md" />
+    <File Path="../Docs/Architecture/NavigationService/NavigationService_UI_ViewConnectivity.drawio" />
+    <File Path="../Docs/Architecture/NavigationService/NavigationService_UI_ViewConnectivity.drawio.png" />
+    <File Path="../Docs/Architecture/NavigationService/NavigationService_UI_ViewConnectivity.md" />
   </Folder>
   <Folder Name="/Docs/Decisions/">
     <File Path="../Docs/Decisions/Why App.xaml.cs is Composition Root.md" />
